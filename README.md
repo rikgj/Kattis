@@ -1,3 +1,3 @@
 # Kattis
 My solutions to some of the Kattis problems
-The problem description can be found at https://open.kattis.com/problems/
+The problem descriptions can be found at https://open.kattis.com/problems/
