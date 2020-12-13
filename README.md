@@ -1,2 +1,2 @@
 # Kattis
- My work at some of the Kattis challanges
+ My solution to some of the Kattis challanges
