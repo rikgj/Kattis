@@ -6,10 +6,12 @@ numOfAnimals = int(stdin.readline())
 animals = [None] * numOfAnimals
 animals = [x.strip() for x in stdin.readlines()]
 lettercomb = []
+# make dictionary
 # st = 'abcdefghijklmnopqrstuvwxyz'
 # animals_fl =  {x: 0 for x in st}
 animals_fl = {'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 0, 'o': 0, 'p': 0, 'q': 0, 'r': 0, 's': 0, 't': 0, 'u': 0, 'v': 0, 'w': 0, 'x': 0, 'y': 0, 'z': 0}
 
+# keep track of how many occurance a first letter has
 for a in animals:
     animals_fl[a[0]]+=1
 

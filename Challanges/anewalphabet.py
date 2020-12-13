@@ -26,7 +26,7 @@ alphabet ={
 'Y':'`/',
 'Z':'2'
 }
-
+# translate input string with custom alphabet
 out = ''
 for l in input():
     l = l.upper()

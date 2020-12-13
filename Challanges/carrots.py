@@ -1,2 +1,2 @@
-from sys import stdin
-print(stdin.readline().split(' ')[1])
+
+print(input().split(' ')[1])
